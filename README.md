@@ -13,3 +13,6 @@ In this mutator, enemies that spawn at a flag that is being contested WILL be te
 If you are experiencing performance drops due to this mutator, that is because all flags for a team are currently being contested. When all flags for a team are being contested, the mutator has to constantly check to see if any flags are available for dead enemies to spawn at. As such, this MAY cause some lag HOWEVER it should not be enough to CAUSE massive performance drops. It is also such a niche scenario that a player will not encounter often so you will likely never experience this.
 
 There might be an FPS hit whenever bots spawn; however, this should only be the case if you have a poor-performing or low end computer. From my experience, it is unnoticable.
+
+# Source?
+Source code can be found [here](https://github.com/MianReplicate/No-Spawning-on-Contested)
