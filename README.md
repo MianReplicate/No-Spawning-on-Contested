@@ -1,5 +1,5 @@
 # Introduction
-This mutator prevents friendlies from spawning at currently contested flags. This means that if you are capturing an enemy flag, enemies will no longer spawn at flag and sneak up on you and assassinate you.
+This mutator prevents enemies from spawning at currently contested flags. This means that if you are capturing an enemy flag, enemies will no longer spawn at flag and sneak up on you and assassinate you.
 
 A flag is considered contested when the flag is in the process of being captured. E.g. 2 Eagles vs 4 Ravens at a Eagle flag. A STALEMENT IS NOT CONSIDERED CONTESTED.
 
