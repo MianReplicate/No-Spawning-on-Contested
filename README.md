@@ -3,6 +3,8 @@ This mutator prevents enemies from spawning at currently contested flags. This m
 
 A flag is considered contested when the flag is in the process of being captured. E.g. 2 Eagles vs 4 Ravens at a Eagle flag. IT IS NOT CONTESTED when the amount of friendlies to enemies is equivalent or less. A good way to determine when it is contested without counting is determining whether the flag's capture progress is moving.
 
+This mutator does not affect the player. You can still spawn at contested flags.
+
 ## Isn't this just a copy of "Limit bot respawn?"
 While this mutator DOES appear to do the same thing as "Limit bot respawn," it handles enemies spawning at contested flags a bit differently. According to what I've seen on the mutator's comment page, it silently kills enemies that spawn at contested flags. That means triggering other mutators that listen to kills AND potentially imbalancing the game because those enemies do not spawn anywhere else.
 
