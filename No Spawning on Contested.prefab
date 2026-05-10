@@ -60,6 +60,10 @@ MonoBehaviour:
         displayName: Spawn Anyways If All Contested
         orderPriority: 0
         value: 0
+      - id: DebugMode
+        displayName: Debug
+        orderPriority: 1
+        value: 0
       dropdowns: []
 --- !u!114 &560115144114420634
 MonoBehaviour:

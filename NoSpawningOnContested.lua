@@ -12,6 +12,7 @@ function NoSpawningOnContested:Awake()
 		[Team.Neutral] = "NEUTRAL"
 	}
 	self.SpawnAnywaysIfAllContested = self.script.mutator.GetConfigurationBool("SpawnAnywaysIfContested")
+	self.DebugMode = self.script.mutator.GetConfigurationBool("DebugMode")
 end
 
 function NoSpawningOnContested:Start()
@@ -127,7 +128,7 @@ function NoSpawningOnContested:isTeamLosingPoint(capturePoint, excludeActor)
 end
 
 function NoSpawningOnContested:debug(...)
-	if(GameManager.isTestingContentMod) then
+	if(GameManager.isTestingContentMod or self.DebugMode) then
 		self:log(...)
 	end
 end
